@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0)50%,rgba(0,0,0,0)50%), url(image.jpg
+    );
+    background-size: center;
+    height: 109vh;
+    width: fit-content;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 90px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 200px;
+}
+
+ul{
+    float:center;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+ul li{
+    list-style: ;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+}
+
+ul li a:hover{
+    color: rgb(12, 148, 211);
+}
+
+.search{
+    width:330px;
+    float: left;
+    margin-left:106px;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width: 200px; 
+    height: 53px; 
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: #fff;
+    border-left:none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top:8px;
+}
+
+.btn{
+    width: 100px;
+    height: 53px;
+    background: #00f0f8;
+    border: 2px solid#1cccbd;
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none; 
+}
+
+
